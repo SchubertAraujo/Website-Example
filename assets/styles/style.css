@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url("../img/backgroundImg.svg") ;
+    font: 16px, arial, helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    color: #828271;
+
+}
+
+#imgheader img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    padding: 1rem 1rem;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #c5c5b2;
+}
+
+
+#menu a:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul li{
+    padding: 0px 16px;
+    font-size: 18px;
+}
+
+#principal{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+#principal h1 , #principal p {
+    padding: 5px 10px;
+}
+
+.imgCampaign{
+    
+    border: 10px solid #c3c3ae;
+}
+
+
+
